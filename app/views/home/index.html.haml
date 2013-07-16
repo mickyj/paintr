@@ -1,0 +1,19 @@
+%h1 Painter
+
+%div#current.box
+
+
+= text_field_tag 'color', nil, :autofocus => true
+= button_tag 'add_color', :id => 'add_color'
+= button_tag 'clear', :id => 'clear'
+
+= text_field_tag 'image', nil, :autofocus => true
+= button_tag 'add image', :id => 'add_image'
+= button_tag 'clear', :id => 'clear_image'
+
+
+%div#colors
+
+%div#images
+
+%div#canvas
